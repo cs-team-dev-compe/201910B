@@ -1,0 +1,39 @@
+/* 背景画像を設定したcol要素用 */
+.my-bg{
+    min-height:200px;
+    background-size:cover;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    font-size: 2rem;
+    text-shadow: 1px 1px 3px #333;
+    box-shadow: 1px 1px 3px #333;
+    border: 2px solid #000;
+}
+/* 文章が入っているcol要素用 */
+.my-text{
+    display: flex;
+    align-items: center;
+}
+
+.RabbitImg{
+    background-image: url(../img/Rabbit.jpg);
+}
+
+.ChickImg{
+    background-image: url(../img/Chick.jpg);
+}
+
+.CatImg{
+    background-image: url(../img/Cat.jpg);
+}
+
+.row:nth-of-type(2n){
+    flex-direction: row-reverse;
+}
+
+#title{
+    text-align: center;
+    border-bottom: 2px solid #000;
+}
