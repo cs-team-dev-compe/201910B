@@ -1,5 +1,5 @@
 /* 背景画像を設定したcol要素用 */
-.my-bg {
+.my_bg {
     min-height: 200px;
     background-size: cover;
     background-position: center center;
@@ -13,21 +13,9 @@
 }
 
 /* 文章が入っているcol要素用 */
-.my-text {
+.my_text {
     display: flex;
     align-items: center;
-}
-
-.RabbitImg {
-    background-image: url(../img/Rabbit.jpg);
-}
-
-.ChickImg {
-    background-image: url(../img/Chick.jpg);
-}
-
-.CatImg {
-    background-image: url(../img/Cat.jpg);
 }
 
 .row:nth-of-type(2n) {
