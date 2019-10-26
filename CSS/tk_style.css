@@ -62,9 +62,16 @@ footer a {
   object-position: 50% 30%;
 }
 
+.move_image {
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+}
+
 section {
-  margin: auto;
-  width: 80%;
+  margin: 0 auto;
+      width: 80%;
+
 }
 
 article {
