@@ -1,52 +1,54 @@
 .top_header {
     color: aqua;
     width: 100%;
-    height: 50px;
     margin: 0;
     padding: 0;
+    font-size: 100px;
+    text-align: center;
+    /* background-color: limegreen; */
+    border: 5px solid;
+    border-radius: 50px;
+    margin: 10px 10px;
 }
 a img {
    width: 100%;
    height: 300px;
    object-fit: cover;
+   border-radius: 1000px;
+   margin: 10px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+a {
+   position: relative;
+}
+a p {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    bottom: calc(50% - 50px);
+    left: calc(50% - 250px);
+    opacity: 0;
+    text-align: center;
+    line-height: 100px;
+    margin: 0;;
+    color: black;
+    /* -transform: translate(-50%, -50%); */
+}
+a:hover p {
+    opacity: 1;
+    font-size: 50px;
 }
 .container-fluid{
     padding: 0;
     margin: 0;
 }
-.tennis a:hover img {
+a:hover img {
     z-index: auto;
     opacity: 1;
     -webkit-transition: .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
-.tennis a:hover img {
-    opacity: 0.3;
-}
-
-.dance a:hover img {
-    opacity: 1;
-    -webkit-transition: .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-.dance a:hover img {
-    opacity: 0.3;
-}
-
-.karate a:hover img {
-    opacity: 1;
-    -webkit-transition: .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-.karate a:hover img {
-    opacity: 0.3;
-}
-
-.kendo a:hover img {
-    opacity: 1;
-    -webkit-transition: .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-.kendo a:hover img {
+a:hover img {
     opacity: 0.3;
 }
