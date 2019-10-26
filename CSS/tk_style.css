@@ -1,9 +1,7 @@
 .navbar {
-  background: linear-gradient(
-    to top,
-    rgba(217, 175, 217, 0.7) 0%,
-    rgba(151, 217, 225, 0.7) 100%
-  );
+  background: linear-gradient(to top,
+      rgba(217, 175, 217, 0.7) 0%,
+      rgba(151, 217, 225, 0.7) 100%);
 }
 
 .heading {
@@ -33,11 +31,9 @@ footer {
   justify-content: center;
   flex-direction: column;
   color: white;
-  background: linear-gradient(
-    to top,
-    rgba(217, 175, 217, 0.7) 0%,
-    rgba(151, 217, 225, 0.7) 100%
-  );
+  background: linear-gradient(to top,
+      rgba(217, 175, 217, 0.7) 0%,
+      rgba(151, 217, 225, 0.7) 100%);
 }
 
 .box {
@@ -75,4 +71,6 @@ article {
 
 ul {
   font-size: 1.4em;
+  list-style: none;
+
 }
