@@ -29,8 +29,8 @@ Normalize.css
 ## Web サイトのラフスケッチ
 
 ![ラフスケッチ１](./img_frame/frame1.jpg)
-![ラフスケッチ１](./img_frame/frame2.jpg)
-![ラフスケッチ１](./img_frame/frame3.jpg)
+![ラフスケッチ２](./img_frame/frame2.jpg)
+![ラフスケッチ３](./img_frame/frame3.jpg)
 
 ## 担当
 
