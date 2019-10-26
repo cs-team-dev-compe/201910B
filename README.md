@@ -32,7 +32,7 @@ Normalize.css
 ![ラフスケッチ１](./img_frame/frame2.jpg)
 ![ラフスケッチ１](./img_frame/frame3.jpg)
 
-##　担当
+## 担当
 
 - 加藤さん tk_page.html
 - 村尾さん 空手 tm_page.html
