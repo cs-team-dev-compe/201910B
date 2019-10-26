@@ -1,9 +1,7 @@
 .navbar {
-  background: linear-gradient(
-    to top,
-    rgba(217, 175, 217, 0.7) 0%,
-    rgba(151, 217, 225, 0.7) 100%
-  );
+  background: linear-gradient(to top,
+      rgba(217, 175, 217, 0.7) 0%,
+      rgba(151, 217, 225, 0.7) 100%);
 }
 
 .heading {
@@ -33,11 +31,9 @@ footer {
   justify-content: center;
   flex-direction: column;
   color: white;
-  background: linear-gradient(
-    to top,
-    rgba(217, 175, 217, 0.7) 0%,
-    rgba(151, 217, 225, 0.7) 100%
-  );
+  background: linear-gradient(to top,
+      rgba(217, 175, 217, 0.7) 0%,
+      rgba(151, 217, 225, 0.7) 100%);
 }
 
 .box {
@@ -62,9 +58,16 @@ footer a {
   object-position: 50% 30%;
 }
 
+.move_image {
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+}
+
 section {
-  margin: auto;
-  width: 80%;
+  margin: 0 auto;
+      width: 80%;
+
 }
 
 article {
